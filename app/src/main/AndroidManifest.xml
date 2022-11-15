@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.love.lovesms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_sms"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoveSms">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8700040991474072~7213729082"/>
+
+        <activity android:name="com.love.lovesms.SplasActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.love.lovesms.NavigationActivty" />
+        <activity
+            android:name="com.love.lovesms.BanglaFriendshipSms"
+            android:parentActivityName="com.love.lovesms.MainActivity" />
+        <activity
+            android:name="com.love.lovesms.BanglishLoveSms"
+            android:parentActivityName="com.love.lovesms.MainActivity" />
+        <activity
+            android:name="com.love.lovesms.MonyPorarSms"
+            android:parentActivityName="com.love.lovesms.MainActivity" />
+        <activity
+            android:name="com.love.lovesms.BirthdaySms"
+            android:parentActivityName="com.love.lovesms.MainActivity" />
+        <activity
+            android:name="com.love.lovesms.KostoSms"
+            android:parentActivityName="com.love.lovesms.MainActivity" />
+        <activity
+            android:name="com.love.lovesms.BokaSms"
+            android:parentActivityName="com.love.lovesms.MainActivity" />
+        <activity
+            android:name="com.love.lovesms.RomansSms"
+            android:parentActivityName="com.love.lovesms.MainActivity" />
+        <activity
+            android:name="com.love.lovesms.ValobasaSms"
+            android:parentActivityName="com.love.lovesms.MainActivity" />
+        <activity android:name="com.love.lovesms.MainActivity">
+        </activity>
+    </application>
+
+</manifest>
